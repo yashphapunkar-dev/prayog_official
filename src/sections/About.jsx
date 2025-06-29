@@ -8,19 +8,19 @@ const About = () => {
   const grid2Container = useRef();
   return (
     <section className="c-space section-spacing" id="about">
-      <h2 className="text-heading">About Me</h2>
+      <h2 className="text-heading">About Us</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+            src="assets/4.png"
+          
+            className="absolute scale-[1.75] -right-[5rem] -top-[1rem]  md:scale-[2.5] md:left-0 md:inset-y-10 lg:scale-[1.7] "
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">We are PRAYOG</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              A community dedicated to Indian classical music, we have just started our journey and there is a lot more to goo!.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -32,43 +32,43 @@ const About = () => {
             className="flex items-center justify-center w-full h-full"
           >
             <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+              MUSIC IS ART
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="Baithak"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
+              text="Music"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="Classical Music"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
+              text="Art"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="Innovation"
               containerRef={grid2Container}
             />
-            <Card
+            {/* <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
               image="assets/logos/csharp-pink.png"
               containerRef={grid2Container}
-            />
-            <Card
+            /> */}
+            {/* <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
               image="assets/logos/dotnet-pink.png"
               containerRef={grid2Container}
-            />
+            /> */}
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
               image="assets/logos/blazor-pink.png"
@@ -79,9 +79,9 @@ const About = () => {
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
+            <p className="headtext">Our music to the world!</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              We have just started but soon we will take our music to the global stages!
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -89,10 +89,10 @@ const About = () => {
           </figure>
         </div>
         {/* Grid 4 */}
-        <div className="grid-special-color grid-4">
+        <div className="grid-black-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+              Want to collaborate together?
             </p>
             <CopyEmailButton />
           </div>
@@ -100,10 +100,12 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headText">Contact us</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              Feel free to reach us anytime!
+              <br/>Yash Phapunkar - 7987950069 <br />
+              Vedant Lakras - 9993907777
+
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

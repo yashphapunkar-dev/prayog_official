@@ -6,6 +6,7 @@ import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
+import OrbitingSwaras from "../components/Sargam";
 import Loader from "../components/Loader";
 
 const Hero = () => {
@@ -13,6 +14,7 @@ const Hero = () => {
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
       <HeroText />
+      {/* <OrbitingSwaras diameter={300} duration={20} /> */}
       <ParallaxBackground />
       <figure
         className="absolute inset-0"
@@ -20,11 +22,13 @@ const Hero = () => {
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
+          
             <Float>
-              <Astronaut
+              {/* <Sargam /> */}
+              {/* <Astronaut
                 scale={isMobile && 0.23}
                 position={isMobile && [0, -1.5, 0]}
-              />
+              /> */}
             </Float>
             <Rig />
           </Suspense>
