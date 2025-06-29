@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["Timeless", "Soulful", "Collaborative"];
+  const words = ["Timeless", "Soulful", "Modern"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -55,7 +55,7 @@ const HeroText = () => {
       {/* Mobile View */}
       <div className="flex- flex-col space-y-6 md:hidden">
         <motion.p
-          className="text-4xl font-medium"
+          className="text-2xl font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -65,7 +65,7 @@ const HeroText = () => {
         </motion.p>
         <div>
           <motion.p
-            className="text-5xl font-black text-neutral-300"
+            className="text-3xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
