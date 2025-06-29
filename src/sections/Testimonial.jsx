@@ -1,8 +1,8 @@
 import { twMerge } from "tailwind-merge";
 import Marquee from "../components/Marquee";
 import { reviews } from "../constants";
-const firstRow = ['/assets/4.png', '/assets/test4.JPG', '/assets/tabla.JPG'];
-const secondRow = ['/assets/kartik.JPG','/assets/rudresh.JPG', '/assets/sarthak.JPG'];
+const firstRow = ['assets/4.png', 'assets/test4.JPG', 'assets/tabla.JPG'];
+const secondRow = ['assets/kartik.JPG','assets/rudresh.JPG', 'assets/sarthak.JPG'];
 
 const ReviewCard = ({ img }) => {
   return (

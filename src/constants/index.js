@@ -237,7 +237,7 @@ export const mySocials = [
   {
     name: "Instagram",
     href: "https://www.instagram.com/prayog_official/",
-    icon: "/assets/socials/instagram.svg",
+    icon: "assets/socials/instagram.svg",
   },
 ];
 
